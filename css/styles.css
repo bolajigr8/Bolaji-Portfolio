@@ -195,6 +195,7 @@ Navbar
 }
 .nav {
   display: grid;
+  z-index: 5;
 
   height: 5rem;
 }
