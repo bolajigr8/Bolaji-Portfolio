@@ -301,6 +301,7 @@ Sidebar
   cursor: pointer;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  margin-top: 1.5rem;
 }
 .close-btn:hover {
   color: rgba(255, 0, 0, 0.774);
