@@ -20,3 +20,11 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
+
+// source code
+const sourceCode = document.getElementById("sourceCode");
+
+function signal() {
+  alert("Not yet uploaded");
+}
+sourceCode.addEventListener("click", signal);
