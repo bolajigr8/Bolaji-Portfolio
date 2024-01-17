@@ -195,7 +195,6 @@ Navbar
 }
 .nav {
   display: grid;
-  z-index: 5;
 
   height: 5rem;
 }
@@ -284,7 +283,7 @@ Sidebar
   transform: translateX(-100%);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  z-index: 3;
+  z-index: 2;
 }
 .show-sidebar {
   -webkit-transform: translateX(0);
@@ -552,6 +551,7 @@ Projects
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-weight: bold;
 }
 .project {
   position: relative;
@@ -586,6 +586,9 @@ Projects
 }
 .project-info p {
   color: white;
+}
+.project-info h4 {
+  line-height: 1.5rem;
 }
 .project:hover .project-img {
   opacity: 0.1;
@@ -705,15 +708,7 @@ Connect
     50% 75%,
     0% 75%
   );
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% 75%,
-    75% 75%,
-    75% 100%,
-    50% 75%,
-    0% 75%
-  );
+  clip-path: clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 .video-banner p {
   color: var(--clr-grey-1);
@@ -722,25 +717,15 @@ Connect
   margin-bottom: 3rem;
 }
 .connect {
-  -webkit-clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 11%,
-    100% 70%,
-    90% 100%,
-    11% 100%,
-    0% 70%,
-    0 11%
-  );
   clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 11%,
-    100% 70%,
-    90% 100%,
-    11% 100%,
-    0% 70%,
-    0 11%
+    47% 3%,
+    97% 0,
+    100% 43%,
+    93% 100%,
+    47% 100%,
+    6% 100%,
+    0% 43%,
+    4% 0
   );
 }
 /*
@@ -748,7 +733,7 @@ Connect
 Skills
 ===============
 */
-.skills {
+/* .skills {
   background: var(--clr-grey-10);
   padding: 4rem 0;
 }
@@ -820,7 +805,7 @@ Skills
   .backend {
     margin-top: 0;
   }
-}
+} */
 /*
 =============== 
 Timeline
@@ -845,6 +830,8 @@ Timeline
 }
 .timeline p {
   margin-bottom: 0;
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }
 .timeline:nth-child(even) {
   border-left: 2px dashed var(--clr-primary-5);
@@ -1047,7 +1034,7 @@ Single Page
 
 /*
 =============== 
-Products Page
+Projects Page
 ===============
 */
 .myProject-underline {
@@ -1058,8 +1045,9 @@ Products Page
 }
 .myProject {
   margin-top: 5rem;
-  height: 27rem;
+  height: 33rem;
   background: var(--clr-grey-10);
+  margin-bottom: 2rem;
 }
 .myProject-photo {
   border-radius: var(--radius);
@@ -1068,8 +1056,8 @@ Products Page
   position: relative;
 }
 .myProject-icon {
-  font-size: 1.75rem;
-  background-color: var(--clr-primary-5);
+  font-size: 1.4rem;
+  background-color: var(--clr-primary-4);
   border: 5px solid #fff;
   border-radius: 50%;
   padding: 0.2rem 0.5rem;
@@ -1079,6 +1067,7 @@ Products Page
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
 }
+
 .myProject h4 {
   margin-top: 2rem;
   padding: 0 1rem;
@@ -1110,4 +1099,5 @@ Products Page
 .myProjects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 0 2rem;
 }
