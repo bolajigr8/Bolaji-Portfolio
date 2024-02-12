@@ -11,38 +11,43 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+  </head> 
   <body>
     <!-- navbar -->
     <nav class="nav" id="nav">
       <div class="nav-center">
         <!-- nav header -->
         <div class="nav-header">
-          <img class="nav-logo" src="./images/name.png" alt="Bolaji Adebayo" />
+          <img src="./images/name.png" class="nav-logo" alt="nav logo" />
           <button class="nav-btn" id="nav-btn">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </button>
         </div>
-        <!-- end of nav header -->
         <!-- nav-links -->
         <ul class="nav-links">
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="projects.html">projects</a></li>
-          <li><a href="contact.html">contact</a></li>
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
         </ul>
-        <!-- end of nav-links -->
       </div>
     </nav>
+    <!-- end of navbar -->
     <!-- sidebar -->
     <aside class="sidebar" id="sidebar">
       <div>
-        <!-- close-btn -->
         <button class="close-btn" id="close-btn">
           <i class="fas fa-times"></i>
         </button>
-        <!-- end of close-btn -->
-        <!-- side-links -->
+        <!-- nav-links -->
         <ul class="sidebar-links">
           <li>
             <a href="index.html">home</a>
@@ -57,47 +62,18 @@
             <a href="contact.html">contact</a>
           </li>
         </ul>
-        <!-- social icons -->
-        <ul class="social-icons">
-          <li>
-            <a
-              href="https://www.facebook.com/bolaji.adebayo.7311/"
-              class="social-icon"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/bolaji-adebayo-373995282/"
-              class="social-icon"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.threads.net/@bolaji2301" class="social-icon">
-              <i class="fab fa-threads"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bolaji2301/" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-        <!-- end of social-icons -->
+                
+
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- old -->
       </div>
     </aside>
     <!-- end of sidebar -->
 
     <!-- header -->
-    <header class="hero">
+    <header id="hero" class="hero">
       <div class="section-center hero-center">
         <!-- hero-info -->
         <article class="hero-info">
@@ -167,7 +143,7 @@
       <div class="about-center">
         <!-- about-img -->
         <div class="about-img">
-          <img src="./images/about-img.jpg" alt="Bolaji" class="about-photo" />
+          <img src="./images/bolaji.jpg" alt="Bolaji" class="about-photo" />
         </div>
         <!-- end of about-img -->
         <!-- about info -->
@@ -314,7 +290,7 @@
               class="project-img"
             />
             <div class="project-info">
-              <h4>portfolio</h4>
+              <h4>leap year calculator</h4>
               <p>bolaji adebayo</p>
             </div>
           </article>
@@ -329,7 +305,7 @@
               class="project-img"
             />
             <div class="project-info">
-              <h4>color morpher</h4>
+              <h4>dice challenge</h4>
               <p>bolaji adebayo</p>
             </div>
           </article>
@@ -345,8 +321,7 @@
             />
             <div class="project-info">
               <h4>
-                none <br />
-                uploaded yet
+                see all
               </h4>
               <p></p>
             </div>
@@ -363,7 +338,7 @@
         loop
         muted
         class="video-container"
-        poster="./images/project-1.jpeg"
+        poster="./images/project-1.jpg"
       >
         <source src="./videos/connect.mp4" type="video/mp4" />
         Sorry Your video cannot be displayed
@@ -487,10 +462,9 @@
               class="card-img"
             />
             <!-- card-info -->
-            <h4>article title</h4>
+            <h4>Micbol-Online-Tutorials</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              suscipit quae, nobis eligendi blanditiis dolorem?
+              Micbol online tutorials is a website created mainly for educational purposes. Its main aim is to connect pupils and students to helpful study materials.
             </p>
             <!-- card-down -->
             <div class="card-down">
@@ -500,13 +474,13 @@
                 alt="Bolaji"
                 class="card-photo"
               />
-              <span>7 min read</span>
+              <span>2 min explore</span>
             </div>
             <!-- end of card-down -->
           </div>
           <!-- card-back -->
           <div class="card-side card-back">
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn">see now</a>
           </div>
           <!-- end of card-back -->
         </article>
@@ -516,15 +490,14 @@
           <!-- card-front -->
           <div class="card-front card-side">
             <img
-              src="./images/project-2.jpg"
+              src="./images/project-img/Leap-Calc.png"
               alt="A man Staring at his Code"
               class="card-img"
             />
             <!-- card-info -->
-            <h4>article title</h4>
+            <h4>leap year calculator</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              suscipit quae, nobis eligendi blanditiis dolorem?
+              Leap year calculator is a tool which can be used to know whether a year is a leap year or not. It can also be used to know the leap years present in a range year. Check out the website below.
             </p>
             <!-- card-down -->
             <div class="card-down">
@@ -534,13 +507,13 @@
                 alt="Bolaji"
                 class="card-photo"
               />
-              <span>7 min read</span>
+              <span>5 min explore</span>
             </div>
             <!-- end of card-down -->
           </div>
           <!-- card-back -->
           <div class="card-side card-back">
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn">see now</a>
           </div>
           <!-- end of card-back -->
         </article>
@@ -550,15 +523,14 @@
           <!-- card-front -->
           <div class="card-front card-side">
             <img
-              src="./images/project-3.jpeg"
+              src="./images/project-img/Dice.png"
               alt="Computer Accessories"
               class="card-img"
             />
             <!-- card-info -->
-            <h4>article title</h4>
+            <h4>dice challenge</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              suscipit quae, nobis eligendi blanditiis dolorem?
+              Dice challenge is more like a game than a tool. Its main purpose is for entertainment and settlement of tussles or disagreements by the simple toss of a die. Check out the website below.
             </p>
             <!-- card-down -->
             <div class="card-down">
@@ -568,13 +540,13 @@
                 alt="Bolaji"
                 class="card-photo"
               />
-              <span>7 min read</span>
+              <span>5 min explore</span>
             </div>
             <!-- end of card-down -->
           </div>
           <!-- card-back -->
           <div class="card-side card-back">
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn">see now</a>
           </div>
           <!-- end of card-back -->
         </article>
@@ -584,15 +556,15 @@
           <!-- card-front -->
           <div class="card-front card-side">
             <img
-              src="./images/project-4.jpeg"
+              src="./images/project-img/project-gallery.png"
               alt="Digital Computer Accessories"
               class="card-img"
             />
             <!-- card-info -->
-            <h4>article title</h4>
+            <h4>projects gallery</h4>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              suscipit quae, nobis eligendi blanditiis dolorem?
+              The projects gallery is a website that shows various pictures used in my various projects. Do you want to see and enjoy the beautiful pictures used throughout my projects ??. Click the link below
+
             </p>
             <!-- card-down -->
             <div class="card-down">
@@ -602,13 +574,13 @@
                 alt=""
                 class="card-photo"
               />
-              <span>7 min read</span>
+              <span>2 min explore</span>
             </div>
             <!-- end of card-down -->
           </div>
           <!-- card-back -->
           <div class="card-side card-back">
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn">see now</a>
           </div>
           <!-- end of card-back -->
         </article>
@@ -638,7 +610,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" class="social-icon">
+            <a href="https://twitter.com/home" class="social-icon">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
@@ -660,6 +632,7 @@
         </div>
       </div>
     </footer>
+    <a href="#hero" class="top-link"><i class="fas fa-arrow-up"></i></a>
     <script src="./js/app.js"></script>
   </body>
 </html>
