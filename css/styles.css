@@ -1186,3 +1186,8 @@ Projects Page
   visibility: visible;
   z-index: 100;
 }
+@media screen and (max-width: 480px) {
+  .myProject {
+    height: 35rem;
+  }
+}
