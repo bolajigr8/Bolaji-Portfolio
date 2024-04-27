@@ -1130,7 +1130,7 @@ Projects Page
   background: var(--clr-grey-10);
   margin-bottom: 2rem;
   display: grid;
-  grid-template-rows: 250px 60px 190px 10px;
+  grid-template-rows: 250px 60px 210px 10px;
 }
 .myProject-photo {
   border-top-left-radius: var(--radius);
