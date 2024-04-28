@@ -1126,7 +1126,7 @@ Projects Page
 .myProject {
   border-radius: var(--radius);
   margin-top: 5rem;
-  height: 35rem;
+  height: 37rem;
   background: var(--clr-grey-10);
   margin-bottom: 2rem;
   display: grid;
